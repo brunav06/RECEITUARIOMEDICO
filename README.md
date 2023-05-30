@@ -1,4 +1,4 @@
-<h1 align="center"> SIMPLE MEDICAL SYSTEM 🩺 </h1>
+<h1 align="center"> 🩺 SISTEMA DE SAÚDE 🩺 </h1>
 
 ## 🔎 Sobre o projeto
 Projeto backend desenvolvido com as ferramentas WEB BOOTSTRAP e JQUERY e objetivará demonstrar que os conceitos apresentados nos temas desta primeira etapa da disciplina podem ser usados no mercado para o desenvolvimento de uma aplicação de controle de receituário em uma clínica médica.
