@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTEMA DE SAÚDE</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../js/scripts.js" defer=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/jQuery-Mask/dist/jquery.mask.min.js" defer=""></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">🩺 SISTEMA DE SAÚDE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">RECEIRUÁRIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">MEDICAMENTOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PLANOS DE SAÚDE</a>
+        </li>
+       </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="container">
+        <div class="mt-3">
+            <div class="p-3 mb-2 bg-dark text-white"><h1>Receituário Médico</h1></div>
+        </div>
+        <div class="mb-3">                                                                                              
+            <label for="exampleFormControlInput1" class="form-label">Nome completo:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          CPF:
+          <input id="CPF" class="form-control" type="text" name="CPF" value="" onkeypress="$(this).mask('000.000.000-00')" placeholder="000.000.000-00" required="" maxlength="14">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Idade:</label>
+            <input type="number" class="form-controlI" id="exampleFormControlInput2">
+        </div>
+            <select class="form-select" aria-label="Default select example">
+        <option selected>Plano de Saúde</option>
+        <option value="1">Amil</option>
+        <option value="2">Unimed</option>
+        <option value="3">Golden Cross</option>
+        <option value="4">Bradesco</option>
+        <option value="5">Consulta Particular</option>
+        </select>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label1">Endereço:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea2" class="form-label2">Prescrição:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea2" rows="4"></textarea>
+        </div>
+        <div class="mb-3">
+            <button type="button" class="btn btn-primary">Imprimir</button>
+            <button type="button" class="btn btn-danger">Voltar</button>
+        </div>
+
+        <div class="mx-auto" style="width: 200px;">
+            <p> ___________________________
+                       (Assinatura médica/CRM)</p>
+        </div>
+    </div>
+      </div>                                         
+</body>
+</html>

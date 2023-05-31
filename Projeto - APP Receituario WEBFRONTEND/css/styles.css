@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <ul class="nav nav-underline">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Receituário</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Médicos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Medicamentos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled">Planos de saúde</a>
+  </li>
+</ul>
+</head>
+<body>
+    <div class="page">
+        <div class="hospital-box">
+            <header>
+                <img>
+                <h2 class="titulo-hospital">Hospital XXXX</h2>
+            </header>
+        </div>
+    
+        <div class="titulo">
+            <h3>Receituário Médico</h3>
+        </div>
+    
+    
+    
+        <div class="dados-paciente">
+          
+            <div class="titulo-dados">
+                <h4>Dados Paciente</h4>
+            </div>
+            
+            <div class="div-nome">
+                <div>
+                    <label>Nome:</label>
+                </div>
+                <div class="div-input-nome-paciente">
+                    <input class="input-nome-paciente" type="text">
+                </div>            
+            </div>
+
+            <div class="div-cpf-endereco-numero">
+                <div class="div-cpf">
+                    <div>
+                        <label>CPF:</label>
+                    </div>
+                    <div class="div-input-cpf-paciente">
+                        <input class="input-cpf-paciente" type="text">
+                    </div>  
+                </div>
+
+                <div class="div-endereco">
+                    <div>
+                        <label>Endereço:</label>
+                    </div>
+                    <div class="div-input-cpf-paciente">
+                        <input class="input-cpf-paciente" type="text">
+                    </div>  
+
+                </div>
+                
+                
+
+
+
+
+            </div>
+
+           
+
+
+
+
+        </div>
+    
+    
+    
+        <div class="prescricao">
+    
+        </div>
+    
+    
+    
+    
+    
+        
+        <div class="data-e-assiantura">
+    
+        </div>
+    
+    
+    
+    
+    
+    
+    
+        <footer>
+    
+        </footer>
+    
+    
+    </div>
+</body>
+</html>
+
+
+
+
